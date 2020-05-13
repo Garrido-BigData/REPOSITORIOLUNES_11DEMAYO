@@ -1,13 +1,32 @@
-##Lanzar un dado que al obtener 1 0 6 en el primer lanzamiento, resulta de doble
-##puntaje y lanza otra vez.Además si tiene par, multiplica por 2 y suma 4
-##y si es impar multiplica por 3 su puntaje
 
-lanzar <-print(sample(6:1,1,replace = TRUE))
-lanzar<-1
-lanzar dados <- if(lanzar==1 || lanzar==6){
-            puntos<-(2*lanzar)
-            print(lanzar)
-            lanzar2 <-print(sample(6:1,1))
-            lanzar2<-(lanzar2*2+4)
-            print(lanzar)
+
+
+
+areaCuadrado <- function(lado){
+  resultado <- lado * lado
+  resultadoTexto <- paste("El calculo de area de un cuadrado de lado",lado,"es:",resultado)
+  print(resultadoTexto)
+  return(resultado)
+}
+
+
+area <- areaCuadrado(2)
+print(area)
+area <- areaCuadrado(3)
+print(area)
+
+#######################################333
+
+calculoDelMod <- function(x, y){
+  if(x == 0){
+    print("No puedo calcular cuando 'x' es cero")
+    return(-1)
+  } else {
+    resultado <- y %% x
+    resultadoTexto <- paste("El resultado de ", y , "%%", x , "es:",resultado)
+    print(resultadoTexto)
+    return(resultado)
   }
+}
+
+calculoDelMod(5,6)
