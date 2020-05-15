@@ -1,6 +1,9 @@
 # REPOSITORIOLUNES_11DEMAYO
 Clase de dia lunes
 
-##Probando el nuevo repositorio
 ##Repositorio creado para guardar funciones
 
+#Las funciones creadas estan orientadas a automatizar procesos
+ Procesos de Recopilacion y Analisis de Datos alojados en la nube
+ 
+ 
