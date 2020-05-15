@@ -30,3 +30,23 @@ calculoDelMod <- function(x, y){
 }
 
 calculoDelMod(5,6)
+calculoDelMod(30,10)
+
+
+#######################
+
+
+ladoalto == 3
+ladolargo == 4
+
+AreaRectangulo <- function(ladoalto,ladolargo){
+  resultado <- (ladoalto*ladolargo)
+  Resultadotexto <- paste( "El area de un rectangulo de alto ", ladoalto, "y de largo" , ladolargo, "es:" , resultado )
+  print(Resultadotexto)
+  return(resultado)
+  
+}
+
+AreaREC <- AreaRectangulo(5,4)
+print(AreaREC)
+
