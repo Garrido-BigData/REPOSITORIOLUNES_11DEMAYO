@@ -6,5 +6,5 @@ Clase de dia lunes
 #Las funciones creadas estan orientadas a automatizar procesos
  Procesos de Recopilacion y Analisis de Datos alojados en la nube
  
- [LinkDeEstudio](http://www.itc.org.html)
+ [LinkDeEstudio](http://www.intracen.org/itc/about.html)
  
