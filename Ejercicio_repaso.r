@@ -43,10 +43,12 @@ AreaRectangulo <- function(ladoalto,ladolargo){
   resultado <- (ladoalto*ladolargo)
   Resultadotexto <- paste( "El area de un rectangulo de alto ", ladoalto, "y de largo" , ladolargo, "es:" , resultado )
   print(Resultadotexto)
-  return(resultado)
+
   
 }
 
-AreaREC <- AreaRectangulo(5,4)
-print(AreaREC)
+AreaREC <- AreaRectangulo(6,8)
+resultadotexto2 <- paste("El area de un rectangulo de alto ", ladoalto, "y de largo" , ladolargo, "es:" , resultado)
+print(resultadotexto2)
 
+##########
