@@ -51,4 +51,9 @@ AreaREC <- AreaRectangulo(6,8)
 resultadotexto2 <- paste("El area de un rectangulo de alto ", ladoalto, "y de largo" , ladolargo, "es:" , resultado)
 print(resultadotexto2)
 
-##########
+######
+
+
+## area de un circulo
+
+
